@@ -91,6 +91,9 @@
     color: #FC6D6D;
     animation: blink 0.7s infinite;
   }
+  section#hero {
+    padding-top: 5rem;  
+  }
   
   @keyframes blink {
     0%, 100% {

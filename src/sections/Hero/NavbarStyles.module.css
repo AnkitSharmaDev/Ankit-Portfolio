@@ -1,1 +1,155 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+  }
+  
+  .scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark {
+    background-color: rgba(17, 24, 39, 0.9);
+    color: white;
+  }
+  
+  .light {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #1a1a1a;
+  }
+  
+  .navContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+  }
+  .logo img{
+    max-height: 55px;
+    max-width: 55px;
+    object-fit: contain;
+  }
+  .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+    
+
+  }
+  
+  .desktopMenu {
+    display: none;
+  }
+  
+  .navLink {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .navLink:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  .mobileMenuBtn {
+    display: block;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .menuIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  .mobileMenu {
+    display: none;
+    padding: 1rem;
+    background-color: inherit;
+  }
+  
+  .mobileMenu.open {
+    display: block;
+  }
+  
+  .mobileNavLink {
+    display: block;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .mobileNavLink:hover {
+    opacity: 0.8;
+  }
+  
+  /* Media query for desktop */
+  @media (min-width: 768px) {
+    .desktopMenu {
+      display: flex;
+      align-items: center;
+    }
+  
+    .mobileMenuBtn {
+      display: none;
+    }
+  
+    .mobileMenu {
+      display: none !important;
+    }
+  }
+  
+  /* Dark mode specific styles */
+  .dark .navLink,
+  .dark .mobileNavLink {
+    color: #fff;
+  }
+  
+  .dark .menuIcon {
+    color: #fff;
+  }
+  
+  /* Light mode specific styles */
+  .light .navLink,
+  .light .mobileNavLink {
+    color: #1a1a1a;
+  }
+  
+  .light .menuIcon {
+    color: #1a1a1a;
+  }
+  
+  /* Scrolled state modifications */
+  .scrolled.dark {
+    background-color: rgba(17, 24, 39, 0.95);
+  }
+  
+  .scrolled.light {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
  

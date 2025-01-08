@@ -11,7 +11,7 @@
   import AnkitResume from '../../assets/AnkitResume.pdf';
   import { useTheme } from '../../common/ThemeContext';
   import React, { useState, useEffect } from 'react';
-// import Navbar from './Navbar';
+  import Navbar from './Navbar';
 
  
 
@@ -74,7 +74,7 @@
 
     return (
       <>
-      {/* <Navbar/> */}
+       <Navbar/>
       <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
           <img
@@ -87,6 +87,7 @@
             src={themeIcon}
             alt="Color mode icon"
             onClick={toggleTheme}
+            // onhover ={"change theeme"}
           />
         </div>
         <div className={styles.info}>
@@ -102,7 +103,7 @@
             <a href="https://twitter.com/Ankit9022086162" target="_blank">
               <img src={twitterIcon} alt="Twitter icon" />
             </a>
-            <a href="https://github.com/Ankit-Sharma-Dev" target="_blank">
+            <a href="https://github.com/AnkitSharmaDev" target="_blank">
               <img src={githubIcon} alt="Github icon" />
             </a>
             <a href="https://www.linkedin.com/in/ankitsharama/" target="_blank">
