@@ -22,7 +22,7 @@ const Experiences = () => {
         period: "Jul 2024 - Aug 2024",
         description: "Developing and maintaining web applications using React and Node.js. Implemented modern design principles and optimized for performance.",
         skills: ["HTML/CSS", "JavaScript", "WordPress", "SEO"]
-      }
+      } 
     ];
   
     return (
