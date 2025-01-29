@@ -26,8 +26,8 @@ A modern and responsive portfolio website built with React.js to showcase my pro
  
 ## 📱 Screenshots
 
-![Portfolio Homepage](![image](https://github.com/user-attachments/assets/d8b38444-5cdd-4e2d-a2e3-a7f4c22383f9)
-)
+![Portfolio Homepage](https://github.com/user-attachments/assets/df37a0cc-83fa-45e2-b97a-e096518ad583)
+
 
  
 ## 📄 License
@@ -37,7 +37,7 @@ This project is licensed under the MIT License
 ## 👤 Author
 
 - GitHub: [AnkitSharmaDev](https://github.com/AnkitSharmaDev)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/ankitsharama/)
+- LinkedIn: [Ankit Sharma](https://www.linkedin.com/in/ankitsharama/)
 
 ## 🤝 Contributing
 
