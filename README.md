@@ -26,7 +26,7 @@ A modern and responsive portfolio website built with React.js to showcase my pro
  
 ## 📱 Screenshots
 
-![Portfolio Homepage](https://github.com/user-attachments/assets/df37a0cc-83fa-45e2-b97a-e096518ad583)
+![Portfolio Homepage](https://github.com/user-attachments/assets/8094f6a2-7f25-49a4-9a79-f6d6d19bb0fa)
 
 
  
